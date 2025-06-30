@@ -92,19 +92,19 @@ My personal hardware setup.
 
 #### Windows
 
-| Setting                   | Value        |
-| ------------------------- | ------------ |
-| Mouse Pointer Speed       | 8 / 5th tick |
-| Enhance Pointer Precision | Disabled     |
+| Setting                   | Value                    |
+| ------------------------- | ------------------------ |
+| Mouse Pointer Speed       | `8` (5th tick in old UI) |
+| Enhance Pointer Precision | `Off`                    |
 
 #### Logitech G HUB
 
-| Setting              | Value        |
-| -------------------- | ------------ |
-| Lightforce Switch    | Optical Only |
-| Gaming Surface Mode  | On           |
-| DPI                  | 800          |
-| Wireless Report Rate | 2000         |
+| Setting              | Value          |
+| -------------------- | -------------- |
+| Lightforce Switch    | `Optical Only` |
+| Gaming Surface Mode  | `On`           |
+| DPI                  | `800`          |
+| Wireless Report Rate | `2000`         |
 
 <br><br>
 
@@ -126,7 +126,7 @@ My personal hardware setup.
 
 <br>
 
-### NVIDIA App
+### NVIDIA App Settings
 
 #### Drivers
 
@@ -134,7 +134,7 @@ My personal hardware setup.
 | ------- | ------------------------------------ |
 | Drivers | `Game Ready Driver` (latest version) |
 
-#### Display Settings
+#### Display
 
 | Option       | Value                  |
 | ------------ | ---------------------- |
@@ -142,7 +142,7 @@ My personal hardware setup.
 | Refresh Rate | `144 Hz`               |
 | G-SYNC       | `On, Full screen`      |
 
-#### Global Graphics Settings
+#### Global Graphics
 
 | Option                | Value                        |
 | --------------------- | ---------------------------- |
