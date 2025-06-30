@@ -14,10 +14,10 @@ My personal hardware setup.
 
 | Part           | Product / Specs                                                                                                                                     | Link                                                                                                                                             |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Case**       | **Fractal Design Meshify 2 Compact (black solid)**                                                                                                  | [Website](https://www.fractal-design.com/products/cases/meshify/meshify-2-compact/black-solid)                                                   |
+| **Case**       | **Fractal Design Meshify 2 Compact** (black solid)                                                                                                  | [Website](https://www.fractal-design.com/products/cases/meshify/meshify-2-compact/black-solid)                                                   |
 | **Mainboard**  | **MSI MAG Z790 TOMAHAWK WIFI**<br>ATX, Intel Z790 Chipset / LGA1700 Socket, DDR5 (Intel XMP 3.0), Intel 2.5Gbps LAN                                 | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI)                                                                                 |
 | **CPU**        | **Intel Core i7-13700K**<br>16 Cores: 8 P-Cores (16 threads, 3.40GHz, 5.30GHz boost) + 8 E-Cores (8 threads, 2.50GHz, 4.20GHz boost), Intel UHD 770 | [Website](https://www.intel.de/content/www/de/de/products/sku/230500/intel-core-i713700k-processor-30m-cache-up-to-5-40-ghz/specifications.html) |
-| **RAM**        | **64GB (2x32GB) Kingston FURY Beast**<br>Dual Kit, DDR5, 6000MT/s, CL30-36-36, 1.4V, Intel XMP 3.0                                                  | [Website](https://www.kingston.com/de/memory/gaming/kingston-fury-beast-ddr5-memory)                                                             |
+| **RAM**        | **64GB (2x32GB) Kingston FURY Beast**<br>Dual Kit, DDR5, 6000MT/s, CL30-36-36-80, 1.4V, Intel XMP 3.0                                               | [Website](https://www.kingston.com/de/memory/gaming/kingston-fury-beast-ddr5-memory)                                                             |
 | **GPU**        | **ASUS ROG Strix GeForce RTX 4080 (OC Edition)**<br>2205MHz (2625MHz boost), 16GB GDDR6X VRAM (256bit, 22.4Gbps, 1400MHz)                           | [Website](https://rog.asus.com/de/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080-o16g-gaming-model)                                   |
 | **PSU**        | **be quiet! DARK POWER 13**<br>Modular, 80 PLUS Titanium, ATX 3.0 (incl. 12VHPWR for PCIe 5.0 GPUs), 1000W                                          | [Website](https://www.bequiet.com/de/powersupply/4046)                                                                                           |
 | **Storage**    | **Samsung 980 PRO 2TB NVMe M.2 SSD**                                                                                                                | [Website](https://www.samsung.com/de/memory-storage/nvme-ssd/980-pro-2tb-nvme-pcie-gen-4-mz-v8p2t0bw/)                                           |
@@ -40,18 +40,13 @@ My personal hardware setup.
 
 #### Settings
 
-| Option                                                        | Value     |
-| ------------------------------------------------------------- | --------- |
-| Advanced → PCIe/PCI Sub-system Settings → Re-Size BAR Support | `Enabled` |
-
-#### Overclocking
-
-| Option                                     | Value                                          |
-| ------------------------------------------ | ---------------------------------------------- |
-| CPU Cooler Tuning                          | `Intel Default Settings (PL1: 253W)`           |
-| Extreme Memory Profile (XMP)               | `Enabled` (`DDR5 6400MHz 32-39-39-102 1.400V`) |
-| CPU Features → Intel Virtualization Tech   | `Enabled`                                      |
-| Advanced CPU Configuration → CPU Lite Load | `Mode 5`                                       |
+| Option                                                                            | Value                                                  |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Settings<br>→ Advanced<br>→ PCIe/PCI Sub-system Settings<br>→ Re-Size BAR Support | `Enabled`                                              |
+| Overclocking<br>→ CPU Cooler Tuning                                               | `Intel Default Settings (PL1: 253W)`                   |
+| Overclocking<br>→ Extreme Memory Profile (XMP)                                    | `Enabled (Profile 1: DDR5 6000MHz 30-36-36-80 1.400V)` |
+| Overclocking<br>→ CPU Features<br>→ Intel Virtualization Tech                     | `Enabled`                                              |
+| Overclocking<br>→ Advanced CPU Configuration<br>→ CPU Lite Load                   | `Mode 5`                                               |
 
 #### Fan Control Settings
 
@@ -66,18 +61,9 @@ My personal hardware setup.
 | Temperature | Fan speed |
 | ----------- | --------- |
 | 80°C        | 100%      |
-| 70°C        | 65%       |
-| 50°C        | 20%       |
-| 0°C         | 20%       |
-
-_Previously:_
-
-| Temperature | Fan speed |
-| ----------- | --------- |
-| 85°C        | 100%      |
-| 70°C        | 63%       |
-| 55°C        | 38%       |
-| 40°C        | 13%       |
+| 70°C        | 70%       |
+| 50°C        | 30%       |
+| 0°C         | 30%       |
 
 <br><br>
 
