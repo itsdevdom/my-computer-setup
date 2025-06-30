@@ -153,6 +153,21 @@ My personal hardware setup.
 | Low Latency Mode      | `Ultra`                      |
 | Shader Cache Size     | `100 GB`                     |
 
+#### How to clear / reset cache
+
+Clearing caches (e.g. shader caches) can occasionally useful, i.e. after major driver updates or when encountering other issues.
+
+Steps (in order, do not skip PC restarts):
+
+1. Open the NVIDIA App and temporarily set "Shader Cache Size" to `Disabled`
+2. *Restart PC*
+3. Run "Disk Cleanup", check (at least) "DirectX Shader Cache" and confirm with "Ok"
+4. Delete all file contents in `%AppData%\NVIDIA` and `%LocalAppData%\NVIDIA` (if applicable)
+5. Delete any game-specific shader caches (e.g. `%AppData%\Arrowhead\Helldivers2\shader_cache`)
+6. *Restart PC*
+7. Open NVIDIA App, re-set "Shader Cache Size" back to `100 GB`
+8. *Restart PC*
+
 <br>
 
 ### Audio / Voicemeter Settings
