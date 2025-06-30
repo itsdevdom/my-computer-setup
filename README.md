@@ -12,18 +12,18 @@ My personal hardware setup.
 
 ### Overview
 
-| Part           | Product / Specs                                                                                                                                   | Link                                                                                                                                             |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Case**       | **Fractal Design Meshify 2 compact** (black)                                                                                                      | [Website](https://www.fractal-design.com/products/cases/meshify/meshify-2-compact)                                                               |
-| **Mainboard**  | **MSI MAG Z790 TOMAHAWK WIFI**<br>ATX, Intel Z790 Chipset, LGA1700 Socket, DDR5, Intel 2.5Gbps LAN                                                | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI)                                                                                 |
-| **CPU**        | **Intel Core i7-13700K Processor**<br>16 Core: 8 P-Core (16T, 3.40GHz, 5.30GHz boost) + 8 E-Core / 8T (8T, 2.50GHz, 4.20GHz boost), Intel UHD 770 | [Website](https://www.intel.de/content/www/de/de/products/sku/230500/intel-core-i713700k-processor-30m-cache-up-to-5-40-ghz/specifications.html) |
-| **RAM**        | **32GB (2x16GB) G.Skill Trident Z5 DDR5-6400 Dual Channel Kit** (black)<br>DDR5, 6400MHz, CL32-39-39-102, 1.40V, Intel XMP 3.0                    | [Website](https://www.gskill.com/product/165/371/1642064625/F5-6400J3239G16GX2-TZ5K-F5-6400J3239G16GA2-TZ5K)                                     |
-| **GPU**        | **ASUS ROG Strix GeForce RTX 4080 (OC Edition)**<br>2205MHz (2625MHz boost), 16GB GDDR6X VRAM (256bit, 22.4 Gbps, 1400MHz)                        | [Website](https://rog.asus.com/de/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080-o16g-gaming-model)                                   |
-| **PSU**        | **be quiet! DARK POWER 13 1000W**<br>Modular, 80 PLUS Titanium, ATX 3.0 (incl. 12VHPWR for PCIe 5.0 GPUs)                                         | [Website](https://www.bequiet.com/de/powersupply/4046)                                                                                           |
-| **Storage**    | **Samsung 980 PRO 2TB NVMe M.2 SSD** (MZ-V8P2T0BW)                                                                                                | [Website](https://www.samsung.com/de/memory-storage/nvme-ssd/980-pro-2tb-nvme-pcie-gen-4-mz-v8p2t0bw/)                                           |
-| **Storage**    | **2x Samsung 860 EVO 1TB SATA SSD** (MZ-76E1T0B/EU)                                                                                               | [Website](https://www.samsung.com/de/memory-storage/860-evo-sata-3-2-5-inch-ssd/MZ-76E1T0BEU)                                                    |
-| **CPU Cooler** | **Noctua NH-D15 chromax.black Dual-Tower**<br>+ Noctua NT-H2 thermal paste                                                                        | [Website](https://noctua.at/en/nh-d15-chromax-black)                                                                                             |
-| **Fans**       | **3x be quiet! Silent Wings 4 high-speed** (PWM, 140mm, 1900 RPM)<br>**2x be quiet! Silent Wings 4 high-speed** (PWM, 120mm, 2500 RPM)            | [Website](https://www.bequiet.com/de/casefans/silent-wings-4/3696)                                                                               |
+| Part           | Product / Specs                                                                                                                                     | Link                                                                                                                                             |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Case**       | **Fractal Design Meshify 2 Compact (black solid)**                                                                                                  | [Website](https://www.fractal-design.com/products/cases/meshify/meshify-2-compact/black-solid)                                                   |
+| **Mainboard**  | **MSI MAG Z790 TOMAHAWK WIFI**<br>ATX, Intel Z790 Chipset / LGA1700 Socket, DDR5 (Intel XMP 3.0), Intel 2.5Gbps LAN                                 | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI)                                                                                 |
+| **CPU**        | **Intel Core i7-13700K**<br>16 Cores: 8 P-Cores (16 threads, 3.40GHz, 5.30GHz boost) + 8 E-Cores (8 threads, 2.50GHz, 4.20GHz boost), Intel UHD 770 | [Website](https://www.intel.de/content/www/de/de/products/sku/230500/intel-core-i713700k-processor-30m-cache-up-to-5-40-ghz/specifications.html) |
+| **RAM**        | **64GB (2x32GB) Kingston FURY Beast**<br>Dual Kit, DDR5, 6000MT/s, CL30-36-36, 1.4V, Intel XMP 3.0                                                  | [Website](https://www.kingston.com/de/memory/gaming/kingston-fury-beast-ddr5-memory)                                                             |
+| **GPU**        | **ASUS ROG Strix GeForce RTX 4080 (OC Edition)**<br>2205MHz (2625MHz boost), 16GB GDDR6X VRAM (256bit, 22.4Gbps, 1400MHz)                           | [Website](https://rog.asus.com/de/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080-o16g-gaming-model)                                   |
+| **PSU**        | **be quiet! DARK POWER 13**<br>Modular, 80 PLUS Titanium, ATX 3.0 (incl. 12VHPWR for PCIe 5.0 GPUs), 1000W                                          | [Website](https://www.bequiet.com/de/powersupply/4046)                                                                                           |
+| **Storage**    | **Samsung 980 PRO 2TB NVMe M.2 SSD**                                                                                                                | [Website](https://www.samsung.com/de/memory-storage/nvme-ssd/980-pro-2tb-nvme-pcie-gen-4-mz-v8p2t0bw/)                                           |
+| **Storage**    | **2x Samsung 860 EVO 1TB SATA SSD**                                                                                                                 | [Website](https://www.samsung.com/de/memory-storage/860-evo-sata-3-2-5-inch-ssd/MZ-76E1T0BEU)                                                    |
+| **CPU Cooler** | **Noctua NH-D15 chromax.black Dual-Tower**<br>_+ Noctua NT-H2 thermal paste_                                                                        | [Website](https://noctua.at/en/nh-d15-chromax-black)                                                                                             |
+| **Fans**       | **3x be quiet! Silent Wings 4 high-speed**<br>(PWM, 140mm, 1900 RPM)<br>**2x be quiet! Silent Wings 4 high-speed**<br>(PWM, 120mm, 2500 RPM)        | [Website](https://www.bequiet.com/de/casefans/silent-wings-4/3696)                                                                               |
 
 <br>
 
@@ -150,16 +150,16 @@ _Previously:_
 
 #### Display Settings
 
-| Option                  | Value                  |
-| ----------------------- | ---------------------- |
+| Option       | Value                  |
+| ------------ | ---------------------- |
 | Resolution   | `2560 x 1440 (native)` |
 | Refresh Rate | `144 Hz`               |
 | G-SYNC       | `On, Full screen`      |
 
 #### Global Graphics Settings
 
-| Option                                  | Value                        |
-| --------------------------------------- | ---------------------------- |
+| Option                | Value                        |
+| --------------------- | ---------------------------- |
 | Monitor Technology    | `G-SYNC Compatible`          |
 | Power Management Mode | `Prefer maximum performance` |
 | Max Frame Rate        | `140 FPS`                    |
