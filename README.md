@@ -27,38 +27,48 @@ My personal hardware setup.
 
 <br>
 
-### BIOS / UEFI Configuration
+### BIOS / UEFI
 
 #### Version
 
-| Info     | Value                                                                 |
-| -------- | --------------------------------------------------------------------- |
-| Version  | `7D91vHE` / `E7D91IMS.HE0`                                            |
-| Released | `2024-11-01`                                                          |
-| Built    | `2024-09-26`                                                          |
-| Source   | [BIOS](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support) |
+| Info              | Details                                                                   |
+| ----------------- | ------------------------------------------------------------------------- |
+| Version           | 7D91vHG / E7D91IMS.HG0                                                    |
+| Installation Date | 2025-07-13                                                                |
+| Release Date      | 2025-04-22                                                                |
+| Build Date        | 2025-04-09                                                                |
+| Source            | [AMI BIOS](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support) |
 
 #### Settings
 
-| Option                                                                            | Value                                                  |
-| --------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Settings<br>→ Advanced<br>→ PCIe/PCI Sub-system Settings<br>→ Re-Size BAR Support | `Enabled`                                              |
-| Overclocking<br>→ CPU Cooler Tuning                                               | `Intel Default Settings (PL1: 253W)`                   |
-| Overclocking<br>→ Extreme Memory Profile (XMP)                                    | `Enabled (Profile 1: DDR5 6000MHz 30-36-36-80 1.400V)` |
-| Overclocking<br>→ CPU Features<br>→ Intel Virtualization Tech                     | `Enabled`                                              |
-| Overclocking<br>→ Advanced CPU Configuration<br>→ CPU Lite Load                   | `Mode 5`                                               |
+| Option                                                                                        | Value                                                |
+| --------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| Mode                                                                                          | Advanced                                             |
+| Motherboard Settings<br>→ Advanced<br>→ PCIe/PCI Sub-system Settings<br>→ Re-Size BAR Support | Enabled                                              |
+| Overclocking Settings<br>→ OC Explore Mode                                                    | Expert                                               |
+| Overclocking Settings<br>→ Extreme Memory Profile (XMP)                                       | Enabled (Profile 1: DDR5 6000MHz 30-36-36-80 1.400V) |
+| Overclocking Settings<br>→ CPU Core Voltage Mode                                              | Adaptive + Offset Mode                               |
+| Overclocking Settings<br>→ CPU Core Voltage                                                   | Auto                                                 |
+| Overclocking Settings<br>→ CPU Core Voltage Offset Mode                                       | -                                                    |
+| Overclocking Settings<br>→ CPU Core Voltage Offset                                            | 0.100                                                |
+| Overclocking Settings<br>→ CPU Cooler Tuning                                                  | Intel Default Settings (PL1: 253W)                   |
+| Overclocking Settings<br>→ Advanced CPU Configuration<br>→ Long Duration Power Limit (W)      | 188                                                  |
+| Overclocking Settings<br>→ Advanced CPU Configuration<br>→ Short Duration Power Limit (W)     | 188                                                  |
+| Overclocking Settings<br>→ CPU Features<br>→ Intel Virtualization Tech                        | Enabled                                              |
 
-#### Fan Control Settings
+#### Fan Control
 
-| Option             | Value     |
-| ------------------ | --------- |
-| Mode               | `PWM`     |
-| Temperature Source | `CPU`     |
-| Smart Fan Mode     | `Enabled` |
+| Option             | Value             |
+| ------------------ | ----------------- |
+| Mode               | PWM               |
+| Temperature Source | CPU               |
+| Step Up Time       | 0.1s              |
+| Step Down Time     | 0.1s              |
+| Smart Fan Mode     | Enabled (checked) |
 
-#### Fan Control Curve
+#### Fan Curve
 
-| Temperature | Fan speed |
+| Temperature | Fan Speed |
 | ----------- | --------- |
 | 80°C        | 100%      |
 | 70°C        | 70%       |
