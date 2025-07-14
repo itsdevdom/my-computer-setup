@@ -75,6 +75,44 @@ My personal hardware setup.
 | 50°C        | 30%       |
 | 0°C         | 30%       |
 
+#### How to update (flash)
+
+Prepare:
+
+1. Download and extract latest stable BIOS zip file (see [AMI BIOS](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support))
+2. Move BIOS files onto a freshly formatted USB drive
+
+Reset BIOS:
+
+1. Boot into BIOS (repeatedly press `Delete` / `Entf` key during boot sequence)
+2. Remember any custom BIOS settings and fan control configurations (see above)
+3. Navigate to "Settings" → "Save & Exit"
+4. Use "Restore Defaults" (and confirm)
+5. Use "Save change and Reboot" (and confirm)
+
+Update (flash) BIOS:
+
+1. Boot into BIOS (repeatedly press `Delete` / `Entf` key during boot sequence)
+2. Enter "M-Flash" mode (and confirm)
+3. Select BIOS file from the USB drive (and confirm)
+4. Wait until update is complete - don't touch anything!
+
+Initial Check:
+
+1. Let the system boot into Windows
+2. Check if everything works normally (e.g. look at performance tab in task manager)
+
+Re-apply custom BIOS settings:
+
+1. Boot into BIOS (repeatedly press `Delete` / `Entf` key during boot sequence)
+2. Re-apply any custom BIOS setting and fan control configurations (see above)
+
+Full Check:
+
+1. Let the system boot into Windows
+2. Check if everything works normally (e.g. look at performance tab in task manager)
+3. Run benchmarks, execute stress tests and test games as needed
+
 <br><br>
 
 ## Peripherals & Devices
