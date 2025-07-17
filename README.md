@@ -138,6 +138,15 @@ Full Check:
 | BlueTooth Driver               | `23.40.0.2`       | `2024-04-15` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
 | Realtek HD Universal Driver    | `6.4.0.2413`      | `2025-04-07` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
 
+<br>
+
+### Disabled Devices (via Windows Device Manager)
+
+| Category         | Device                          | Reason                                                                      |
+| ---------------- | ------------------------------- | --------------------------------------------------------------------------- |
+| Network Adapters | Intel(R) Wi-Fi 6E AX211 160Mhz  | Unused<br>→ Intel (R) Ethernet Controller I226-V is used instead            |
+| Bluetooth        | Intel(R) Wireless Bluetooth (R) | Unused & Conflicting<br>→ TP-Link Bluetooth 5.4 USB Adapter is used instead |
+
 <br><br>
 
 ## Peripherals & Devices
