@@ -147,6 +147,58 @@ Full Check:
 | Network Adapters | Intel(R) Wi-Fi 6E AX211 160Mhz  | Unused<br>→ Intel (R) Ethernet Controller I226-V is used instead            |
 | Bluetooth        | Intel(R) Wireless Bluetooth (R) | Unused & Conflicting<br>→ TP-Link Bluetooth 5.4 USB Adapter is used instead |
 
+<br>
+
+### NVIDIA App
+
+| Name       | Version | Link                                                        |
+| :--------- | :------ | :---------------------------------------------------------- |
+| NVIDIA App | latest  | [Website](https://www.nvidia.com/de-de/software/nvidia-app) |
+
+#### Drivers
+
+| Option | Value                       |
+| :----- | :-------------------------- |
+| Driver | `GeForce Game Ready Driver` |
+
+#### System → Display
+
+| Option       | Value                  |
+| :----------- | :--------------------- |
+| G-SYNC       | `On, Full screen`      |
+| Resolution   | `2560 x 1440 (native)` |
+| Refresh Rate | `144 Hz`               |
+
+#### Graphics → Global Settings
+
+| Option                | Value                        |
+| :-------------------- | :--------------------------- |
+| Power Management Mode | `Prefer maximum performance` |
+| Monitor Technology    | `G-SYNC Compatible`          |
+| Vertical Sync         | `On`                         |
+| Max Frame Rate        | `140 FPS`                    |
+| Low Latency Mode      | `Ultra`                      |
+| Shader Cache Size     | `100 GB`                     |
+
+#### How to clear / reset shader cache
+
+Temporarily disable shader cache:
+
+1. In the NVIDIA App, navigate to "Graphics" → "Global Settings" and set "Shader Cache Size" to `Disabled`
+2. Restart PC
+
+Delete shader caches:
+
+1. Run the Windows "Disk Cleanup" as Administrator, check at least "DirectX Shader Cache" (consider "Temporary Files" as well) and confirm with "Ok"
+2. Cleanup NVIDIA shader caches in `%AppData%\NVIDIA`, `%LocalAppData%\NVIDIA` and `%LocalAppData%\D3DSCache`
+3. Cleanup any game-specific shader caches (e.g. for Helldivers 2 in `%AppData%\Arrowhead\Helldivers2\shader_cache`)
+4. Restart PC
+
+Re-enable shader cache:
+
+1. In the NVIDIA App, navigate to "Graphics" → "Global Settings" and set "Shader Cache Size" back to `100 GB`
+2. Restart PC
+
 <br><br>
 
 ## Peripherals & Devices
@@ -205,50 +257,6 @@ Full Check:
 | **[Focusrite Control](https://downloads.focusrite.com/focusrite/scarlett-3rd-gen/scarlett-solo-3rd-gen)** | Audio Engine driver                                          |
 | **[HP Smart](https://www.hpsmart.com/at/de)**                                                             | HP Printer tool                                              |
 | **[Minimal ADB and Fastboot Tool](https://androidmtk.com/download-minimal-adb-and-fastboot-tool)**        | Connect to Android devices (Smartphone, TV)                  |
-
-<br>
-
-### NVIDIA App Settings
-
-#### Drivers
-
-| Option  | Value                                |
-| ------- | ------------------------------------ |
-| Drivers | `Game Ready Driver` (latest version) |
-
-#### Display
-
-| Option       | Value                  |
-| ------------ | ---------------------- |
-| Resolution   | `2560 x 1440 (native)` |
-| Refresh Rate | `144 Hz`               |
-| G-SYNC       | `On, Full screen`      |
-
-#### Global Graphics
-
-| Option                | Value                        |
-| --------------------- | ---------------------------- |
-| Monitor Technology    | `G-SYNC Compatible`          |
-| Power Management Mode | `Prefer maximum performance` |
-| Max Frame Rate        | `140 FPS`                    |
-| Vertical Sync         | `On`                         |
-| Low Latency Mode      | `Ultra`                      |
-| Shader Cache Size     | `100 GB`                     |
-
-#### How to clear / reset cache
-
-Clearing caches (e.g. shader caches) can occasionally useful, i.e. after major driver updates or when encountering other issues.
-
-Steps (in order, do not skip PC restarts):
-
-1. Open the NVIDIA App and temporarily set "Shader Cache Size" to `Disabled`
-2. *Restart PC*
-3. Run "Disk Cleanup", check (at least) "DirectX Shader Cache" and confirm with "Ok"
-4. Delete all file contents in `%AppData%\NVIDIA` and `%LocalAppData%\NVIDIA` (if applicable)
-5. Delete any game-specific shader caches (e.g. `%AppData%\Arrowhead\Helldivers2\shader_cache`)
-6. *Restart PC*
-7. Open NVIDIA App, re-set "Shader Cache Size" back to `100 GB`
-8. *Restart PC*
 
 <br>
 
