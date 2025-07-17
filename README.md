@@ -122,6 +122,22 @@ Full Check:
 | ASUS GPU VBIOS Update Tool                | `V1`           | `2023-03-02`     | [Website](https://rog.asus.com/de/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080-o16g-gaming-model/helpdesk_bios/) |
 | Samsung Magician                          | latest         | `2025-05-19` (?) | [Website](https://www.samsung.com/semiconductor/minisite/ssd/download/tools)                                                  |
 
+<br>
+
+### Drivers
+
+| Name                           | Version           | Released     | Link                                                                            |
+| :----------------------------- | :---------------- | :----------- | :------------------------------------------------------------------------------ |
+| Intel Chipset Driver           | `10.1.19899.8597` | `2025-01-13` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| Intel SVGA Drivers             | `32.0.101.5542`   | `2025-01-13` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| Intel Management Engine Driver | `2435.6.36.0`     | `2025-03-17` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| Intel GNA Scoring Accelerator  | `3.05.00.1578`    | `2025-01-13` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| Intel Serial IO Drivers        | `30.100.2417.30`  | `2025-01-13` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| Intel Network Drivers          | `2.1.5.3`         | `2025-03-18` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| Intel WIFI Driver              | `23.40.0.4`       | `2024-04-30` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| BlueTooth Driver               | `23.40.0.2`       | `2024-04-15` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| Realtek HD Universal Driver    | `6.4.0.2413`      | `2025-04-07` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+
 <br><br>
 
 ## Peripherals & Devices
