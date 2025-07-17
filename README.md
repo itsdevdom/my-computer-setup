@@ -72,7 +72,7 @@ My personal hardware setup.
 | 50°C        | 30%       |
 | 0°C         | 30%       |
 
-#### How to update (flash)
+#### How to update / flash
 
 Prepare:
 
@@ -109,6 +109,18 @@ Full Check:
 1. Let the system boot into Windows
 2. Check if everything works normally (e.g. look at performance tab in task manager)
 3. Run benchmarks, execute stress tests and test games as needed
+
+<br>
+
+### Firmware
+
+| Name                                      | Version        | Released         | Link                                                                                                                          |
+| :---------------------------------------- | :------------- | :--------------- | :---------------------------------------------------------------------------------------------------------------------------- |
+| MSI Intel Management Engine (ME) Firmware | `16.1.35.2557` | `2025-03-13` (?) | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#bios)                                                 |
+| MSI USB Audio FW Update Tool              | ?              | `2024-05-13`     | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver)                                               |
+| MSI LED Firmware Tool                     | `v0007`        | `2023-01-10`     | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#firmware)                                             |
+| ASUS GPU VBIOS Update Tool                | `V1`           | `2023-03-02`     | [Website](https://rog.asus.com/de/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080-o16g-gaming-model/helpdesk_bios/) |
+| Samsung Magician                          | latest         | `2025-05-19` (?) | [Website](https://www.samsung.com/semiconductor/minisite/ssd/download/tools)                                                  |
 
 <br><br>
 
