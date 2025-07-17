@@ -13,7 +13,7 @@ My personal hardware setup.
 ### Hardware
 
 | Part                | Component                                                                                                                                                                                                                    | Link                                                                                                                                             |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Case**            | **Fractal Design Meshify 2 Compact**<br>ATX, Solid Black                                                                                                                                                                     | [Website](https://www.fractal-design.com/products/cases/meshify/meshify-2-compact/black-solid)                                                   |
 | **Mainboard**       | **MSI MAG Z790 TOMAHAWK WIFI**<br>ATX, Intel Z790 Chipset, LGA 1700 Socket, DDR5 Memory (Intel XMP 3.0), PCIe 5.0 Expansion, PCIe 3.0 M.2, Intel 2.5Gbps LAN, Intel Wi-Fi 6E, Bluetooth 5.3                                  | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI)                                                                                 |
 | **CPU**             | **Intel Core i7-13700K 3.4 GHz 16-Core**<br>16 Cores (24 threads) = 8 P-Cores (16 threads, 3.40GHz, 5.30GHz boost) + 8 E-Cores (8 threads, 2.50GHz, 4.20GHz boost), Intel UHD 770, LGA 1700 Socket, 125W / 253W Power Limits | [Website](https://www.intel.de/content/www/de/de/products/sku/230500/intel-core-i713700k-processor-30m-cache-up-to-5-40-ghz/specifications.html) |
@@ -30,33 +30,33 @@ My personal hardware setup.
 ### BIOS / UEFI
 
 | Name     | Version                    | Released     | Built        | Link                                                                          |
-| -------- | -------------------------- | ------------ | ------------ | ----------------------------------------------------------------------------- |
+| :------- | :------------------------- | :----------- | :----------- | :---------------------------------------------------------------------------- |
 | AMI BIOS | `7D91vHG` / `E7D91IMS.HG0` | `2025-04-22` | `2025-04-09` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#bios) |
 
 #### Motherboard Settings
 
 | Option                                                        | Value     |
-| ------------------------------------------------------------- | --------- |
+| :------------------------------------------------------------ | :-------- |
 | Advanced → PCIe/PCI Sub-system Settings → Re-Size BAR Support | `Enabled` |
 
 #### Overclocking Settings
 
-| Option                                                      | Value                                                  |
-| ----------------------------------------------------------- | ------------------------------------------------------ |
-| OC Explore Mode                                             | `Expert`                                               |
-| Extreme Memory Profile (XMP)                                | `Enabled (Profile 1: DDR5 6000MHz 30-36-36-80 1.400V)` |
-| CPU Core Voltage Mode                                       | `Adaptive + Offset Mode`                               |
-| CPU Core Voltage Offset Mode                                | `-` _(minus)_                                          |
-| CPU Core Voltage Offset                                     | `0.100`                                                |
-| CPU Cooler Tuning                                           | `Intel Default Settings (PL1: 253W)`                   |
-| Advanced CPU Configuration → Long Duration Power Limit (W)  | `150`                                                  |
-| Advanced CPU Configuration → Short Duration Power Limit (W) | `150`                                                  |
-| CPU Features → Intel Virtualization Tech                    | `Enabled`                                              |
+| Option                                                      | Value                                                       |
+| :---------------------------------------------------------- | :---------------------------------------------------------- |
+| OC Explore Mode                                             | `Expert`                                                    |
+| Extreme Memory Profile (XMP)                                | `Enabled`<br>`(Profile 1: DDR5 6000MHz 30-36-36-80 1.400V)` |
+| CPU Core Voltage Mode                                       | `Adaptive + Offset Mode`                                    |
+| CPU Core Voltage Offset Mode                                | `-` _(minus)_                                               |
+| CPU Core Voltage Offset                                     | `0.100`                                                     |
+| CPU Cooler Tuning                                           | `Intel Default Settings`<br>`(PL1: 253W)`                   |
+| Advanced CPU Configuration → Long Duration Power Limit (W)  | `150`                                                       |
+| Advanced CPU Configuration → Short Duration Power Limit (W) | `150`                                                       |
+| CPU Features → Intel Virtualization Tech                    | `Enabled`                                                   |
 
 #### Fan Control (all)
 
 | Option             | Value               |
-| ------------------ | ------------------- |
+| :----------------- | :------------------ |
 | Mode               | `PWM`               |
 | Temperature Source | `CPU`               |
 | Step Up Time       | `0.1s`              |
@@ -66,7 +66,7 @@ My personal hardware setup.
 #### Fan Curve (all)
 
 | Temperature | Fan Speed |
-| ----------- | --------- |
+| :---------- | :-------- |
 | 80°C        | 100%      |
 | 70°C        | 70%       |
 | 50°C        | 30%       |
