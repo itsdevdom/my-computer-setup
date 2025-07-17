@@ -12,61 +12,58 @@ My personal hardware setup.
 
 ### Hardware
 
-| Part                               | Component                                                                                                                                                                                                                    | Link                                                                                                                                             |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Case**                           | **Fractal Design Meshify 2 Compact**<br>ATX, Solid Black                                                                                                                                                                     | [Website](https://www.fractal-design.com/products/cases/meshify/meshify-2-compact/black-solid)                                                   |
-| **Mainboard**                      | **MSI MAG Z790 TOMAHAWK WIFI**<br>ATX, Intel Z790 Chipset, LGA 1700 Socket, DDR5-7200+ Memory (Intel XMP 3.0), PCIe 5.0, M.2 Gen4, Intel 2.5Gbps LAN, Intel Wi-Fi 6E, Bluetooth 5.3                                          | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI)                                                                                 |
-| **CPU**                            | **Intel Core i7-13700K 3.4 GHz 16-Core**<br>16 Cores (24 threads) = 8 P-Cores (16 threads, 3.40GHz, 5.30GHz boost) + 8 E-Cores (8 threads, 2.50GHz, 4.20GHz boost), Intel UHD 770, LGA 1700 Socket, 125W / 253W Power Limits | [Website](https://www.intel.de/content/www/de/de/products/sku/230500/intel-core-i713700k-processor-30m-cache-up-to-5-40-ghz/specifications.html) |
-| **RAM**                            | **Kingston FURY Beast 64GB (2x 32GB) DDR5-6000 CL30**<br>64GB Dual Kit (2x 32GB), DDR5, 6000MT/s, CL30-36-36-80, 1.4V, Intel XMP 3.0, Black                                                                                  | [Website](https://www.kingston.com/de/memory/gaming/kingston-fury-beast-ddr5-memory)                                                             |
-| **GPU**                            | **ASUS ROG Strix GeForce RTX 4080 (OC Edition)**<br>2205MHz (2625MHz boost), 16GB GDDR6X VRAM (256bit, 22.4Gbps, 1400MHz)                                                                                                    | [Website](https://rog.asus.com/de/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080-o16g-gaming-model)                                   |
-| **PSU**                            | **be quiet! DARK POWER 13**<br>Modular, 80 PLUS Titanium, 1000W, ATX 3.0 (incl. 12VHPWR for PCIe 5.0 GPUs)                                                                                                                   | [Website](https://www.bequiet.com/de/powersupply/4046)                                                                                           |
-| **Storage**                        | **Samsung 980 PRO 2TB NVMe M.2 SSD**                                                                                                                                                                                         | [Website](https://www.samsung.com/de/memory-storage/nvme-ssd/980-pro-2tb-nvme-pcie-gen-4-mz-v8p2t0bw/)                                           |
-| **Storage**                        | **2x Samsung 860 EVO 1TB SATA SSD**                                                                                                                                                                                          | [Website](https://www.samsung.com/de/memory-storage/860-evo-sata-3-2-5-inch-ssd/MZ-76E1T0BEU)                                                    |
-| **Cooler<br>(CPU)**                | **Noctua NH-D15 chromax.black Dual-Tower**<br>+ Noctua NT-H2 thermal paste                                                                                                                                                   | [Website](https://noctua.at/en/nh-d15-chromax-black)                                                                                             |
-| **Fans<br>(CPU&nbsp;/&nbsp;Case)** | **3x be quiet! Silent Wings 4 high-speed**<br>(PWM, 140mm, 1900 RPM)<br>**2x be quiet! Silent Wings 4 high-speed**<br>(PWM, 120mm, 2500 RPM)                                                                                 | [Website](https://www.bequiet.com/de/casefans/silent-wings-4/3696)                                                                               |
+| Part                | Component                                                                                                                                                                                                                    | Link                                                                                                                                             |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Case**            | **Fractal Design Meshify 2 Compact**<br>ATX, Solid Black                                                                                                                                                                     | [Website](https://www.fractal-design.com/products/cases/meshify/meshify-2-compact/black-solid)                                                   |
+| **Mainboard**       | **MSI MAG Z790 TOMAHAWK WIFI**<br>ATX, Intel Z790 Chipset, LGA 1700 Socket, DDR5 Memory (Intel XMP 3.0), PCIe 5.0 Expansion, PCIe 3.0 M.2, Intel 2.5Gbps LAN, Intel Wi-Fi 6E, Bluetooth 5.3                                  | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI)                                                                                 |
+| **CPU**             | **Intel Core i7-13700K 3.4 GHz 16-Core**<br>16 Cores (24 threads) = 8 P-Cores (16 threads, 3.40GHz, 5.30GHz boost) + 8 E-Cores (8 threads, 2.50GHz, 4.20GHz boost), Intel UHD 770, LGA 1700 Socket, 125W / 253W Power Limits | [Website](https://www.intel.de/content/www/de/de/products/sku/230500/intel-core-i713700k-processor-30m-cache-up-to-5-40-ghz/specifications.html) |
+| **RAM**             | **Kingston FURY Beast 64GB (2x 32GB) DDR5-6000 CL30**<br>64GB Dual Kit (2x 32GB), DDR5, 6000MT/s, CL30-36-36-80, 1.4V, Intel XMP 3.0, Black                                                                                  | [Website](https://www.kingston.com/de/memory/gaming/kingston-fury-beast-ddr5-memory)                                                             |
+| **GPU**             | **ASUS ROG Strix GeForce RTX 4080 (OC Edition)**<br>2205MHz (2625MHz boost), 16GB GDDR6X VRAM (256bit, 22.4Gbps, 1400MHz)                                                                                                    | [Website](https://rog.asus.com/de/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080-o16g-gaming-model)                                   |
+| **PSU**             | **be quiet! DARK POWER 13**<br>Modular, 80 PLUS Titanium, 1000W, ATX 3.0 (incl. 12VHPWR for PCIe 5.0 GPUs)                                                                                                                   | [Website](https://www.bequiet.com/de/powersupply/4046)                                                                                           |
+| **Storage**         | **Samsung 980 PRO 2TB NVMe M.2 SSD**                                                                                                                                                                                         | [Website](https://www.samsung.com/de/memory-storage/nvme-ssd/980-pro-2tb-nvme-pcie-gen-4-mz-v8p2t0bw/)                                           |
+| **Storage**         | **2x Samsung 860 EVO 1TB SATA SSD**                                                                                                                                                                                          | [Website](https://www.samsung.com/de/memory-storage/860-evo-sata-3-2-5-inch-ssd/MZ-76E1T0BEU)                                                    |
+| **CPU&nbsp;Cooler** | **Noctua NH-D15 chromax.black Dual-Tower**<br>+ Noctua NT-H2 thermal paste                                                                                                                                                   | [Website](https://noctua.at/en/nh-d15-chromax-black)                                                                                             |
+| **Fans**            | **3x be quiet! Silent Wings 4 high-speed**<br>(PWM, 140mm, 1900 RPM)<br>**2x be quiet! Silent Wings 4 high-speed**<br>(PWM, 120mm, 2500 RPM)                                                                                 | [Website](https://www.bequiet.com/de/casefans/silent-wings-4/3696)                                                                               |
 
 <br>
 
 ### BIOS / UEFI
 
-#### Version
+| Name     | Version                    | Released     | Built        | Link                                                                          |
+| -------- | -------------------------- | ------------ | ------------ | ----------------------------------------------------------------------------- |
+| AMI BIOS | `7D91vHG` / `E7D91IMS.HG0` | `2025-04-22` | `2025-04-09` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#bios) |
 
-| Info              | Details                                                                   |
-| ----------------- | ------------------------------------------------------------------------- |
-| Version           | 7D91vHG / E7D91IMS.HG0                                                    |
-| Installation Date | 2025-07-13                                                                |
-| Release Date      | 2025-04-22                                                                |
-| Build Date        | 2025-04-09                                                                |
-| Source            | [AMI BIOS](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support) |
+#### Motherboard Settings
 
-#### Settings
+| Option                                                        | Value     |
+| ------------------------------------------------------------- | --------- |
+| Advanced → PCIe/PCI Sub-system Settings → Re-Size BAR Support | `Enabled` |
 
-| Option                                                                                        | Value                                                |
-| --------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| Mode                                                                                          | Advanced                                             |
-| Motherboard Settings<br>→ Advanced<br>→ PCIe/PCI Sub-system Settings<br>→ Re-Size BAR Support | Enabled                                              |
-| Overclocking Settings<br>→ OC Explore Mode                                                    | Expert                                               |
-| Overclocking Settings<br>→ Extreme Memory Profile (XMP)                                       | Enabled (Profile 1: DDR5 6000MHz 30-36-36-80 1.400V) |
-| Overclocking Settings<br>→ CPU Core Voltage Mode                                              | Adaptive + Offset Mode                               |
-| Overclocking Settings<br>→ CPU Core Voltage                                                   | Auto                                                 |
-| Overclocking Settings<br>→ CPU Core Voltage Offset Mode                                       | -                                                    |
-| Overclocking Settings<br>→ CPU Core Voltage Offset                                            | 0.100                                                |
-| Overclocking Settings<br>→ CPU Cooler Tuning                                                  | Intel Default Settings (PL1: 253W)                   |
-| Overclocking Settings<br>→ Advanced CPU Configuration<br>→ Long Duration Power Limit (W)      | 188                                                  |
-| Overclocking Settings<br>→ Advanced CPU Configuration<br>→ Short Duration Power Limit (W)     | 188                                                  |
-| Overclocking Settings<br>→ CPU Features<br>→ Intel Virtualization Tech                        | Enabled                                              |
+#### Overclocking Settings
 
-#### Fan Control
+| Option                                                      | Value                                                  |
+| ----------------------------------------------------------- | ------------------------------------------------------ |
+| OC Explore Mode                                             | `Expert`                                               |
+| Extreme Memory Profile (XMP)                                | `Enabled (Profile 1: DDR5 6000MHz 30-36-36-80 1.400V)` |
+| CPU Core Voltage Mode                                       | `Adaptive + Offset Mode`                               |
+| CPU Core Voltage Offset Mode                                | `-` _(minus)_                                          |
+| CPU Core Voltage Offset                                     | `0.100`                                                |
+| CPU Cooler Tuning                                           | `Intel Default Settings (PL1: 253W)`                   |
+| Advanced CPU Configuration → Long Duration Power Limit (W)  | `150`                                                  |
+| Advanced CPU Configuration → Short Duration Power Limit (W) | `150`                                                  |
+| CPU Features → Intel Virtualization Tech                    | `Enabled`                                              |
 
-| Option             | Value             |
-| ------------------ | ----------------- |
-| Mode               | PWM               |
-| Temperature Source | CPU               |
-| Step Up Time       | 0.1s              |
-| Step Down Time     | 0.1s              |
-| Smart Fan Mode     | Enabled (checked) |
+#### Fan Control (all)
 
-#### Fan Curve
+| Option             | Value               |
+| ------------------ | ------------------- |
+| Mode               | `PWM`               |
+| Temperature Source | `CPU`               |
+| Step Up Time       | `0.1s`              |
+| Step Down Time     | `0.1s`              |
+| Smart Fan Mode     | Enabled _(checked)_ |
+
+#### Fan Curve (all)
 
 | Temperature | Fan Speed |
 | ----------- | --------- |
@@ -79,7 +76,7 @@ My personal hardware setup.
 
 Prepare:
 
-1. Download and extract latest stable BIOS zip file (see [AMI BIOS](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support))
+1. Download and extract latest stable BIOS zip file (see above)
 2. Move BIOS files onto a freshly formatted USB drive
 
 Reset BIOS:
