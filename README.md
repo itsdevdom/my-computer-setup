@@ -287,85 +287,308 @@ Re-enable shader cache:
 
 <br><br>
 
-## Peripherals & Devices
+## Peripherals
 
-### Overview
+### USB Hub
 
-| Type                | Product / Specs                                                                        | Link                                                                                                                |
-| ------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Monitor**         | **2x LG 27GL850-B**<br>(27'', 2560x1440px WQHD, IPS, 144Hz, HDR 10, G-Sync / FreeSync) | [Website](https://www.lg.com/de/monitore/lg-27GL850-B)                                                              |
-| **Keyboard**        | **Logitech K280e Corded Keyboard**                                                     | [Website](https://www.logitech.com/de-de/product/corded-keyboard-k280e-business)                                    |
-| **Mouse**           | **Logitech PRO X SUPERLIGHT 2** (black)                                                | [Website](https://www.logitechg.com/de-de/products/gaming-mice/pro-x2-superlight-wireless-mouse.910-006630.html)    |
-| **Controller**      | **Microsoft Xbox Wireless Controller** (carbon black)                                  | [Website](https://www.xbox.com/de-DE/accessories/controllers/xbox-wireless-controller)                              |
-| **Headset**         | **Logitech PRO X 2 LIGHTSPEED** (black)                                                | [Website](https://www.logitechg.com/de-de/products/gaming-audio/pro-x-2-wireless-headset.981-001263.html)           |
-| **Speakers**        | **Bose Companion 20**                                                                  | [Website](https://www.bose.de/de_de/products/speakers/stereo_speakers/companion-20-multimedia-speaker-system.html)  |
-| **Webcam**          | **Logitech Stream Cam** (graphite)                                                     | [Website](https://www.logitech.com/de-de/products/webcams/streamcam.960-001281.html)                                |
-| **Microphone**      | **Audio Technica BP40**                                                                | [Website](https://www.audio-technica.com/de-de/bp40)                                                                |
-| **Audio Interface** | **Focusrite Scarlett Solo (3rd Gen)**                                                  | [Website](https://focusrite.com/de/audio-interface/scarlett/scarlett-solo)                                          |
-| **Microphone Arm**  | **RØDE PSA1+ Professional Studio Boom Arm**                                            | [Website](https://rode.com/de/accessories/stands-bars/psa1-plus)                                                    |
-| **Router**          | **FRITZ!Box 6591 Cable Router**<br>(DOCSIS 3.1, Gigabit-LAN, WLAN AC + N)              | [Website](https://avm.de/produkte/fritzbox/fritzbox-6591-cable/)                                                    |
-| **Printer**         | **HP OfficeJet Pro 8710**                                                              | [Website](https://support.hp.com/de-de/drivers/selfservice/hp-officejet-pro-8710-all-in-one-printer-series/7902014) |
+#### Hardware
+
+LIONWEI USB Hub ([Website](https://www.amazon.de/dp/B0BRXQ5LG8))
 
 <br>
 
-### Mouse Settings
+### Bluetooth
 
-#### Windows
+#### Hardware
 
-| Setting                   | Value                    |
-| ------------------------- | ------------------------ |
-| Mouse Pointer Speed       | `8` (5th tick in old UI) |
-| Enhance Pointer Precision | `Off`                    |
+TP-Link UB500 ([Website](https://www.tp-link.com/de/home-networking/adapter/ub500/))
+
+<br>
+
+### Monitor
+
+#### Hardware
+
+LG 27GL850-B ([Website](https://www.lg.com/de/monitore/lg-27GL850-B))
+
+<br>
+
+### Keyboard
+
+#### Hardware
+
+Keychron V6 Max ([Website](https://keychron.de/de/products/keychron-v6-max-qmk-wireless-custom-mechanical-keyboard-iso-layout-collection?variant=42587534491785))
+
+| Spec         | Details                    |
+| :----------- | :------------------------- |
+| Size         | Full Size (100%)           |
+| Layout       | DE-ISO                     |
+| Switches     | Gateron Jupiter Brown      |
+| Connectivity | Cable / 2.4GHz / Bluetooth |
+
+#### Hardware Settings
+
+| Option       | Value                                                            |
+| :----------- | :--------------------------------------------------------------- |
+| System       | `Windows`                                                        |
+| Connectivity | `2.4G` during normal use<br>`Cable` while charging / to turn off |
+
+#### Firmware / Driver / Software
+
+Keychron Launcher ([Web Application](https://launcher.keychron.com)), incl. QMK Toolbox for Firmware updates
+
+#### Windows Settings
+
+| Option                                            | Value |
+| :------------------------------------------------ | :---- |
+| Accessibility → Keyboard → Sticky Keys → Shortcut | `Off` |
+
+#### Keychron Launcher
+
+With "Layout language" set to "Deutsch", following keymap customizations are applied:
+
+| Default Key                      | Mapped Key               | Physical Keycap |
+| :------------------------------- | :----------------------- | :-------------- |
+| "Rollen" (above "Home")          | Lighting → RGB Toggle    | Lightbulb       |
+| "Pause / Umbr" (above "Page Up") | Custom → Any → `G(KC_L)` | Lock            |
+
+<br>
+
+### Mouse
+
+#### Hardware
+
+Logitech PRO X SUPERLIGHT 2 ([Website](https://www.logitechg.com/de-de/products/gaming-mice/pro-x2-superlight-wireless-mouse.910-006630.html))
+
+| Spec                    | Details               |
+| :---------------------- | :-------------------- |
+| Tracking                | HERO 2                |
+| Resolution              | 100DPI - 44000DPI     |
+| Polling Rate (Wireless) | up to 8000Hz          |
+| Polling Rate (Wired)    | up to 1000Hz          |
+| Connection              | Wireless (LIGHTSPEED) |
+| Color                   | Black                 |
+
+#### Firmware / Driver / Software
+
+Logitech G HUB ([Website](https://www.logitechg.com/de-de/innovation/g-hub.html))
+
+#### Windows Settings
+
+| Option                                                    | Value               |
+| :-------------------------------------------------------- | :------------------ |
+| Bluetooth and Devices → Mouse → Mouse Pointer Speed       | `8` (`5` in old UI) |
+| Bluetooth and Devices → Mouse → Enhance Pointer Precision | `Off`               |
 
 #### Logitech G HUB
 
-| Setting              | Value          |
-| -------------------- | -------------- |
-| Lightforce Switch    | `Optical Only` |
-| Gaming Surface Mode  | `On`           |
-| DPI                  | `800`          |
-| Wireless Report Rate | `2000`         |
-
-<br><br>
-
-## Drivers & Tools
-
-### Overview
-
-| Name                                                                                                      | Description                                                  |
-| --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **[NVIDIA App](https://www.nvidia.com/de-de/software/nvidia-app/)**                                       | GPU driver and tool                                          |
-| **[Logitech G HUB](https://www.logitechg.com/de-de/innovation/g-hub.html)**                               | Logitech peripherals tool (Mouse, Keyboard, Headset, Webcam) |
-| **[Samsung Magician](https://www.samsung.com/semiconductor/minisite/ssd/download/tools)**                 | SSD (NVMe M.2, SATA) tool                                    |
-| **[Xbox Accessories](https://apps.microsoft.com/detail/9nblggh30xj3)**                                    | XBOX Controller tool (e.g. Firmware Updates)                 |
-| **[Voicemeter Potato](https://vb-audio.com/Voicemeeter/potato.htm)** (paid)                               | Audio mixer                                                  |
-| **[Process Lasso](https://bitsum.com/)** (paid)                                                           | Process Manager                                              |
-| **[Focusrite Control](https://downloads.focusrite.com/focusrite/scarlett-3rd-gen/scarlett-solo-3rd-gen)** | Audio Engine driver                                          |
-| **[HP Smart](https://www.hpsmart.com/at/de)**                                                             | HP Printer tool                                              |
-| **[Minimal ADB and Fastboot Tool](https://androidmtk.com/download-minimal-adb-and-fastboot-tool)**        | Connect to Android devices (Smartphone, TV)                  |
+| Option                                | Value          |
+| :------------------------------------ | :------------- |
+| Device Settings → Lightforce Switch   | `Optical Only` |
+| Device Settings → Gaming Surface Mode | `On`           |
+| Sensitivity → Default DPI             | `800 DPI`      |
+| Sensitivity → Wireless Report Rate    | `2000`         |
 
 <br>
 
-### Audio / Voicemeter Settings
+### Controller
 
-All audio input and output channels are set to `48000Hz`.
+#### Hardware
 
-Process-specific configuration (pinned via Process Lasso):
+Microsoft Xbox Wireless Controller ([Website](https://www.xbox.com/de-DE/accessories/controllers/xbox-wireless-controller))
 
-| Process              | CPU Priority | CPU Affinity |
+#### Firmware / Driver / Software
+
+Xbox Accessories ([Microsoft Store](https://apps.microsoft.com/detail/9NBLGGH30XJ3))
+
+In Steam: Install "Xbox Extended Feature Support Driver"
+
+<br>
+
+### Speakers
+
+#### Hardware
+
+Bose Companion 20 ([Website](https://www.bose.de/de_de/products/speakers/stereo_speakers/companion-20-multimedia-speaker-system.html))
+
+<br>
+
+### Headset
+
+#### Hardware
+
+Logitech PRO X 2 LIGHTSPEED ([Website](https://www.logitechg.com/de-de/products/gaming-audio/pro-x-2-wireless-headset.981-001263.html))
+
+| Spec               | Details                                  |
+| :----------------- | :--------------------------------------- |
+| Driver             | Graphene 1.97in (50mm)                   |
+| Magnet             | Neodymium                                |
+| Frequency Response | 20Hz - 20KHz                             |
+| Impedance          | 38Ohms                                   |
+| Sensitivity        | 87.8dB SPL @ 1mW & 1cm                   |
+| Connection         | Wireless (2.4GHz LIGHTSPEED) / Bluetooth |
+| Color              | Black                                    |
+
+#### Firmware / Driver / Software
+
+Logitech G HUB ([Website](https://www.logitechg.com/de-de/innovation/g-hub.html))
+
+<br>
+
+### Microphone
+
+#### Hardware
+
+Audio Technica BP40 ([Website](https://www.audio-technica.com/de-de/bp40))<br>
+on RØDE PSA1+ Professional Studio Boom Arm ([Website](https://rode.com/de/accessories/stands-bars/psa1-plus))
+
+| Spec                     | Details                    |
+| :----------------------- | :------------------------- |
+| Element                  | Dynamic                    |
+| Polar Pattern            | Hypercardioid              |
+| Frequency Response       | 50Hz - 16000Hz             |
+| Low Frequency Roll Off   | 100Hz, 6dB/octave          |
+| Open Circuit Sensitivity | -48dB (3.9mV) re 1V at 1Pa |
+| Connector                | Integral 3-pin XLRM-type   |
+
+Focusrite Scarlett Solo (3rd Gen) ([Website](https://focusrite.com/de/audio-interface/scarlett/scarlett-solo))
+
+<br>
+
+### Webcam
+
+#### Hardware
+
+Insta360 Link 2C ([Website](https://www.insta360.com/de/product/insta360-link2))
+
+| Spec          | Details                                                                                         |
+| :------------ | :---------------------------------------------------------------------------------------------- |
+| Resolution    | 4K @ 30/25/24fps<br>720p @ 60/50/30/25/24fps<br>1080p @ 60/50/30/25/24fps<br>360p @ 30/25/24fps |
+| Encoding      | H.264<br>MJPEG                                                                                  |
+| ISO           | 100 - 3200                                                                                      |
+| Shutter Speed | 1/8000 - 1/30s                                                                                  |
+| White Balance | 2000 - 10000K                                                                                   |
+| Aperture      | F1.8                                                                                            |
+| FOV           | 79.5º DFOV / 67º HFOV                                                                           |
+| Connector     | USB-C                                                                                           |
+| Color         | Graphite Black                                                                                  |
+
+#### Firmware / Driver / Software
+
+Insta360 Link Controller ([Website](https://www.insta360.com/de/download/insta360-link2c))
+
+<br>
+
+### Voicemeter
+
+#### Driver / Software
+
+Voicemeter Potato (64-Bit Version) ([Website](https://vb-audio.com/Voicemeeter/potato.htm))
+
+#### Windows Settings
+
+| Option                                         | Value                                                                                        |
+| :--------------------------------------------- | :------------------------------------------------------------------------------------------- |
+| System → Sound → [Device] → Channels           | `2` (or `1` if not available)                                                                |
+| System → Sound → [Device] → Bitrate            | `16bit`                                                                                      |
+| System → Sound → [Device] → Sample Rate        | `48000Hz`                                                                                    |
+| System → Sound → [Device] → Volume             | `100` (baseline, can of course be changed later on)                                          |
+| System → Sound → [Device] → Audio Enhancements | `Device Default Effects` only if powered by Realtek or Logitech<br>`Off` for everything else |
+| System → Sound → [Device] → Spatial Sound      | `Off`                                                                                        |
+| System → Sound → [Device] → Voice Focus        | `Off`                                                                                        |
+
+#### Virtual Cables
+
+| Input (Hardware / Virtual)                   | Voicemeter Input | Voicemeter Output  | Output (Hardware / Virtual)                          |
+| :------------------------------------------- | :--------------- | :----------------- | :--------------------------------------------------- |
+| Windows Default Output Device                | Voicemeter Input | Hardware Output A1 | _Hardware Output Device<br>(e.g. speakers, headset)_ |
+| _Hardware Input Device<br>(e.g. microphone)_ | Stereo Input 1   | Voicemeter Out B1  | Windows Default Input Device                         |
+
+#### Hardware Input & Output
+
+| Option       | Value                                                                                             |
+| :----------- | :------------------------------------------------------------------------------------------------ |
+| Audio Driver | Preferably `WDM (WADAPI)`<br>Alternatively `MME (Multimedia)` if audio crackling / popping occurs |
+
+#### System Settings
+
+| Option                    | Value     |
+| :------------------------ | :-------- |
+| Preferred Main SampleRate | `48000Hz` |
+
+#### Hardware Input Processing
+
+| Option            | Value                                                                               |
+| :---------------- | :---------------------------------------------------------------------------------- |
+| Voice Color Panel | bottom left square,<br>with distance of 1x handle size between handle and each axis |
+| Compressor        | `0.5`                                                                               |
+| Gate              | `0.1`                                                                               |
+| Denoiser          | `1.0`                                                                               |
+| Limit             | `-0.3`                                                                              |
+
+#### Process Optimization (via Process Lasso)
+
+| Process Name         | CPU Priority | CPU Affinity |
 | -------------------- | ------------ | ------------ |
-| `audiodg.exe`        | High         | CPU 0        |
-| `voicemeter8x64.exe` | High         | CPU 0        |
+| `audiodg.exe`        | `High`       | `CPU 0`      |
+| `voicemeter8x64.exe` | `High`       | `CPU 0`      |
 
 <br><br>
 
-## Diagnostics & Monitoring & Benchmarking
+## Other Devices
 
-### Overview
+### Router
 
-| Name                                                             | Description                                                     |
-| ---------------------------------------------------------------- | --------------------------------------------------------------- |
-| **[HWiNFO](https://www.hwinfo.com/)**                            | Hardware Diagnostics                                            |
-| **[HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)**  | Hardware Monitoring                                             |
-| **[MAXON CINEBENCH](https://www.maxon.net/de/cinebench)**        | Hardware Benchmarking / Stress Testing / Stability Verification |
-| **[Heaven Benchmark 4.0](https://benchmark.unigine.com/heaven)** | Hardware Benchmarking / Stress Testing / Stability Verification |
+#### Hardware
+
+FRITZ!Box 6591 Cable ([Website](https://avm.de/produkte/fritzbox/fritzbox-6591-cable))
+
+| Spec                 | Details                                                       |
+| :------------------- | :------------------------------------------------------------ |
+| Data Transfer        | Cable (DOCSIS 3.1)                                            |
+| Max Speed Downstream | 6000Mbit                                                      |
+| Max Speed Upstream   | 2000Mbit                                                      |
+| LAN                  | 1 Gigabit/s                                                   |
+| WLAN                 | WiFi 5 / 802.11ac (1.733MBit/s @ 5GHz / 800 MBit/s @ 2,4 GHz) |
+
+#### Firmware
+
+FRITZ!OS ([FRITZ!Box](http://fritz.box/), [MyFritz!Net](https://www.myfritz.net/))
+
+#### Settings
+
+| Option                                                                         | Value                                                   |
+| :----------------------------------------------------------------------------- | :------------------------------------------------------ |
+| Internet → Zugangsdaten → DNSv4-Server → Bevorzugter DNS-Server                | `1.1.1.1`                                               |
+| Internet → Zugangsdaten → DNSv4-Server → Alternativer DNS-Server               | `1.0.0.1`                                               |
+| Internet → Zugangsdaten → DNSv6-Server → Bevorzugter DNS-Server                | `2606:4700:4700::1111`                                  |
+| Internet → Zugangsdaten → DNSv6-Server → Alternativer DNS-Server               | `2606:4700:4700::1001`                                  |
+| Internet → Zugangsdaten → Bei Störung auf öffentliche DNS-Server zurückgreifen | Aktiviert                                               |
+| Internet → Zugangsdaten → DNS over TLS (DoT)                                   | Aktiviert                                               |
+| Internet → Zugangsdaten → DNS over TLS (DoT) → Zertifikatsprüfung erzwingen    | Aktiviert                                               |
+| Internet → Zugangsdaten → DNS over TLS (DoT) → Fallback zulassen               | Aktiviert                                               |
+| Internet → Zugangsdaten → DNS over TLS (DoT) → Auslösungsnamen der DNS-Server  | `one.one.one.one`<br>`1dot1dot1dot1.cloudflare-dns.com` |
+
+<br>
+
+### Printer
+
+#### Hardware
+
+HP OfficeJet Pro 8710 ([Website](https://support.hp.com/de-de/drivers/selfservice/hp-officejet-pro-8710-all-in-one-printer-series/7902014))
+
+#### Software
+
+HP Smart ([Microsoft Store](https://apps.microsoft.com/detail/9WZDNCRFHWLH))
+
+<br><br>
+
+## Tools
+
+| Name                                                                                               | Description                                                     |
+| -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **[Process Lasso](https://bitsum.com)**                                                            | Process Manager                                                 |
+| **[Minimal ADB and Fastboot Tool](https://androidmtk.com/download-minimal-adb-and-fastboot-tool)** | Connect to Android devices (Smartphone, TV)                     |
+| **[HWiNFO](https://www.hwinfo.com/)**                                                              | Hardware Diagnostics                                            |
+| **[MAXON CINEBENCH](https://www.maxon.net/de/cinebench)**                                          | Hardware Benchmarking / Stress Testing / Stability Verification |
+| **[Heaven Benchmark 4.0](https://benchmark.unigine.com/heaven)**                                   | Hardware Benchmarking / Stress Testing / Stability Verification |
