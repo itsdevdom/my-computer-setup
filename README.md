@@ -35,7 +35,7 @@ MSI MAG Z790 TOMAHAWK WIFI ([Website](https://de.msi.com/Motherboard/MAG-Z790-TO
 | M.2        | PCIe 3.0             |
 | LAN        | Intel 2.5Gbps        |
 | Wi-Fi      | Intel Wi-Fi 6E       |
-| Bluetooth  | Bluetooth 5.3        |
+| Bluetooth  | Intel Bluetooth 5.3        |
 
 #### Processor (CPU)
 
