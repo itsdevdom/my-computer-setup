@@ -226,12 +226,40 @@ Full Check:
 
 <br>
 
-### Disabled Devices (via Windows Device Manager)
+### Device Configuration (via Windows Device Manager)
+
+#### Disabled Devices
 
 | Category         | Device                          | Reason                                                                      |
 | ---------------- | ------------------------------- | --------------------------------------------------------------------------- |
 | Network Adapters | Intel(R) Wi-Fi 6E AX211 160Mhz  | Unused<br>→ Intel (R) Ethernet Controller I226-V is used instead            |
 | Bluetooth        | Intel(R) Wireless Bluetooth (R) | Unused & Conflicting<br>→ TP-Link Bluetooth 5.4 USB Adapter is used instead |
+
+#### Prevent automatic / unintended wake-ups
+
+For every device:
+
+1. Open "Properties" (via double click)
+2. Navigate to "Power Management" tab (if available)
+3. Uncheck "Allow this device to wake up computer" (if available / allowed)
+4. Confirm with "Ok"
+
+In addition, for both "Intel Ethernet Controller" and "Intel Wi-Fi" devices:
+
+1. Open "Properties" (via double click)
+2. Navigate to "Advanced" tab
+3. Select every property starting with "Wake on [...]" and change each value to "Disabled"
+4. Confirm with "Ok"
+
+#### Ensure Optimal Internet Speed
+
+For the "Intel Ethernet Controller" device:
+
+1. Open "Properties" (via double click)
+2. Navigate to "Advanced" tab
+3. Select the "Energy Efficient Ethernet" property and change its value to "Off"
+4. Select the "Speed & Duplex" property and change its value to "1.0 Gbps Full Duplex" (first entry, may need to scroll up)
+5. Confirm with "Ok"
 
 <br>
 
