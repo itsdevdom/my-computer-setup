@@ -1,8 +1,8 @@
 <div align="center">
 
-# My Hardware Setup
+# My Computer Setup
 
-My personal hardware setup.
+My computer setup, including peripherals and devices, firmware and drivers, software and configurations.
 
 </div>
 
