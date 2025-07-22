@@ -35,7 +35,7 @@ MSI MAG Z790 TOMAHAWK WIFI ([Website](https://de.msi.com/Motherboard/MAG-Z790-TO
 | M.2        | PCIe 3.0             |
 | LAN        | Intel 2.5Gbps        |
 | Wi-Fi      | Intel Wi-Fi 6E       |
-| Bluetooth  | Intel Bluetooth 5.3        |
+| Bluetooth  | Intel Bluetooth 5.3  |
 
 #### Processor (CPU)
 
@@ -223,6 +223,7 @@ Full Check:
 | Intel WIFI Driver              | `23.40.0.4`       | `2024-04-30` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
 | BlueTooth Driver               | `23.40.0.2`       | `2024-04-15` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
 | Realtek HD Universal Driver    | `6.4.0.2413`      | `2025-04-07` | [Website](https://de.msi.com/Motherboard/MAG-Z790-TOMAHAWK-WIFI/support#driver) |
+| NVIDIA App                     | latest            |              | [Website](https://www.nvidia.com/de-de/software/nvidia-app)                     |
 
 <br>
 
@@ -263,11 +264,7 @@ For the "Intel Ethernet Controller" device:
 
 <br>
 
-### NVIDIA App
-
-| Name       | Version | Link                                                        |
-| :--------- | :------ | :---------------------------------------------------------- |
-| NVIDIA App | latest  | [Website](https://www.nvidia.com/de-de/software/nvidia-app) |
+### NVIDIA App Configuration
 
 #### Drivers
 
@@ -287,12 +284,20 @@ For the "Intel Ethernet Controller" device:
 
 | Option                | Value                        |
 | :-------------------- | :--------------------------- |
-| Power Management Mode | `Prefer maximum performance` |
-| Monitor Technology    | `G-SYNC Compatible`          |
-| Vertical Sync         | `On`                         |
-| Max Frame Rate        | `140 FPS`                    |
 | Low Latency Mode      | `Ultra`                      |
+| Max Frame Rate        | `140 FPS`                    |
+| Monitor Technology    | `G-SYNC Compatible`          |
+| Power Management Mode | `Prefer maximum performance` |
 | Shader Cache Size     | `100 GB`                     |
+| Vertical Sync         | `On`                         |
+
+#### Settings → Features
+
+| Option                                                           | Value |
+| :--------------------------------------------------------------- | :---- |
+| NVIDIA Overlay                                                   | `Off` |
+| Automatically download drivers and let me choose when to install | `On`  |
+| Automatically optimize newly added games and apps                | `Off` |
 
 #### How to clear / reset shader cache
 
