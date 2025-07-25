@@ -342,7 +342,54 @@ TP-Link UB500 ([Website](https://www.tp-link.com/de/home-networking/adapter/ub50
 
 #### Hardware
 
-LG 27GL850-B ([Website](https://www.lg.com/de/monitore/lg-27GL850-B))
+LG 27GL850-B ([Website](https://www.lg.com/de/monitore/lg-27GL850-B))<br>
+_connected via DisplayPort (Desktop Computer) and HDMI (Laptop)_
+
+| Spec          | Details                                  |
+| :------------ | :--------------------------------------- |
+| Technology    | Nano-IPS (matte)                         |
+| Size          | 27''                                     |
+| Resolution    | QHD / 1440p (2560 × 1440)                |
+| Refresh Rate  | 144Hz                                    |
+| Adaptive Sync | AMD FreeSync<br>NVIDIA G-SYNC Compatible |
+| Response Time | 1ms                                      |
+
+#### Hardware Settings (via Monitor OSD)
+
+| Option                         | Value                            |
+| :----------------------------- | :------------------------------- |
+| Game Mode                      | `Gamer 1`                        |
+| Game Adjust → Adaptive-Sync    | `On`                             |
+| Game Adjust → Black Stabilizer | `40`                             |
+| Game Adjust → Response Time    | `Fast`                           |
+| Picture Adjust → Brightness    | `50`                             |
+| Picture Adjust → Contrast      | `70`                             |
+| Picture Adjust → Sharpness     | `50`                             |
+| Picture Adjust → Gamma         | `Mode 2`                         |
+| Picture Adjust → Color Temp    | `Custom` (with default settings) |
+| Picture Adjust → DFC           | `Off`                            |
+| General → SMART ENERGY SAVING  | `Off`                            |
+| General → Power LED            | `Off`                            |
+| General → Automatic Standby    | `Off`                            |
+| General → DisplayPort Version  | `1.4`                            |
+
+#### Driver / Color Profile
+
+27GL850 Windows Driver ([Website](https://www.lg.com/de/support/produkt-hilfe/cs-27GL850-B.AEU/#manual-tab))
+
+1. Extract `27GL850.zip` file contents
+2. Install drivers via `27GL850.inf` (right click → "Install")
+3. Install color profile via `27GL850.icm` (right click → "Install Profile")
+
+#### Windows Settings
+
+| Option                                                     | Value                                |
+| :--------------------------------------------------------- | :----------------------------------- |
+| System → Display → Color profile                           | `27GL850`                            |
+| System → Display → Scale                                   | `125%`                               |
+| System → Display → Display resolution                      | `2560 x 1440`                        |
+| System → Display → Advanced display → Refresh rate         | `144Hz` (may be shown as `143.97Hz`) |
+| System → Display → Advanced display → Dynamic refresh rate | `Off`                                |
 
 <br>
 
