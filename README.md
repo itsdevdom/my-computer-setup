@@ -334,7 +334,16 @@ LIONWEI USB Hub ([Website](https://www.amazon.de/dp/B0BRXQ5LG8))
 
 #### Hardware
 
-TP-Link UB500 ([Website](https://www.tp-link.com/de/home-networking/adapter/ub500/))
+TP-Link UB500 (V2.0) ([Website](https://www.tp-link.com/de/home-networking/adapter/ub500/))
+
+| Spec      | Details |
+| :-------- | :------ |
+| Bluetooth | 5.3     |
+| USB       | 2.0     |
+
+#### Driver
+
+UB500(UN)\_V3_Win10_Win11 ([Website](https://www.tp-link.com/de/support/download/ub500/v3/))
 
 <br>
 
