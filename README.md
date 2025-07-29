@@ -167,7 +167,7 @@ Prepare:
 
 Reset BIOS:
 
-1. Boot into BIOS (repeatedly press `Delete` / `Entf` key during boot sequence)
+1. Boot into BIOS (repeatedly press `Delete` key during boot sequence)
 2. Remember any custom BIOS settings and fan control configurations (see above)
 3. Navigate to "Settings" → "Save & Exit"
 4. Use "Restore Defaults" (and confirm)
@@ -175,7 +175,7 @@ Reset BIOS:
 
 Update (flash) BIOS:
 
-1. Boot into BIOS (repeatedly press `Delete` / `Entf` key during boot sequence)
+1. Boot into BIOS (repeatedly press `Delete` key during boot sequence)
 2. Enter "M-Flash" mode (and confirm)
 3. Select BIOS file from the USB drive (and confirm)
 4. Wait until update is complete - don't touch anything!
@@ -317,6 +317,34 @@ Re-enable shader cache:
 
 1. In the NVIDIA App, navigate to "Graphics" → "Global Settings" and set "Shader Cache Size" back to `100 GB`
 2. Restart PC
+
+#### How to clean-install drivers
+
+Prepare:
+
+1. Download NVIDIA GeForce Game Ready Driver (offline installation files) ([Website](https://www.nvidia.com/en-us/drivers/details/250995/))
+2. Download Display Driver Uninstaller (DDU) ([Website](https://www.guru3d.com/download/display-driver-uninstaller-download/))
+3. In the Windows Settings, navigate to "Accounts" → "Sign-in options" and turn off "For improved security, only allow Windows Hello sign-in
+   for Microsoft accounts on this device (Recommended)"
+4. Logout, then log back in via password (not PIN!)
+5. Temporarily disconnect the PC from the Internet during all remaining instructions (e.g. by unplugging Ethernet cable)
+
+Uninstall current drivers:
+
+1. In the Windows start menu, navigate to "Power" and click "Restart" while holding the `Shift` key
+2. Navigate to "Troubleshoot" → "Advanced options" → "Startup Settings" and click "Restart"
+3. Press `4` to boot info offline Safe Mode
+4. Login via password (not PIN!)
+5. Run Display Driver Uninstaller (DDU) as Administrator
+6. Choose correct GPU instance and brand at the top right
+7. Click "Clean and Restart"
+
+Install new drivers:
+
+1. Let the PC boot normally
+2. Login via password (not PIN!)
+3. Install NVIDIA GeForce Game Ready Driver
+4. Reboot PC
 
 <br><br>
 
